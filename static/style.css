@@ -1,0 +1,122 @@
+* {
+
+  margin:0px;
+  padding :0px;
+
+
+}
+
+body::before {
+  content: ' ';
+  position: fixed;
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+
+  height:100%;
+
+  width:100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  z-index: -1;
+
+}
+
+body {
+
+}
+
+input::placeholder {
+  margin-left: 16px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding : 5px;
+
+
+
+}
+
+select::placeholder {
+
+  margin-left: 16px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding : 5px;
+
+
+}
+
+textarea::placeholder {
+  margin-left: 16px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding : 5px;
+
+}
+
+
+
+.wrapper
+{
+background-color:#393b44;
+width : 700px;
+height:auto;
+opacity: 0.8;
+margin:0 auto;
+align: center;
+text-align: center;
+
+
+color:white;
+
+
+
+
+
+}
+.radio {
+  margin-top: 20px;
+}
+#title {
+  padding-top: 50px;
+
+
+
+}
+#survey-form {
+  margin-top:20px;
+
+
+  margin-left:48px;
+  text-align:left;
+
+
+
+}
+
+.entry-field {
+
+  margin:20px auto 18px auto;
+  width:85.71%;
+  height:30px;
+}
+
+.check {
+  padding :16px;
+  margin: 16px auto auto auto;
+
+}
+
+button {
+
+  width:100px;
+  height:48px;
+  border-radius: 10%;
+  background-color: #d6e0f0;
+
+
+}
+
+
+#description {
+  padding:10px ;
+}

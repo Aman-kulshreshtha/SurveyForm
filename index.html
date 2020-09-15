@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+
+
+
+              <div>
+              <h1  id = "title">SURVEY FORM</h1>
+              </div>
+
+
+
+              <div >
+                <p id = "description">Thank you for taking the time to help us improve the platform</p>
+
+              </div>
+
+
+
+
+                  <form id = "survey-form">
+                    <label id = "name-label">Name</label><br>
+                    <input type="text"placeholder="Enter Name" id = "name" required class = "entry-field" name=""  value=""  ><br>
+
+                    <label id = "email-label">Email</label><br>
+                    <input type="email"placeholder="Enter Email" required id = "email" class = "entry-field" name=""  value=""  ><br>
+
+
+
+                    <label id = "number-label">Age (Optional)</label><br>
+                    <input type="number" placeholder="Age" min ="10" max = "100" id = "number" class = "entry-field" name=""  value=""  >
+                      <br>  <br>
+
+                    <h3>
+Which option best describes your current role?</h3>
+                  <select name ="role" class="entry-field" id = "dropdown"name="">
+                    <option disabled selected value="">Select current role</option>
+
+                    <option value="student">Student</option>
+
+                      <option value="job">Full Time Job</option>
+                      <option value="learner">Full Time learner</option>
+                      <option value="preferNo">Prefer not to say</option>
+
+                  </select>
+                    <br>
+                      <br>
+                        <br>
+
+                  <h3>Would you recommend us to your friends?</h3><label>
+                  <input type="radio" class = "radio" checked name="recommend" value="Definately" title="Definately">
+                  Definately
+
+                </label>
+                <br>
+
+                <input type="radio" class = "radio" name="recommend" value="Maybe" title="Definately">
+                Maybe
+
+              </label>
+              <br>
+
+              <input type="radio" class = "radio" name="recommend" value="notSure" title="Definately ">
+              Not Sure
+
+            </label><br>
+
+          <br>
+            <br>
+              <br>
+                <br>
+
+          <h3>
+What is our feature that you like the most?</h3>
+        <select name ="role" class="entry-field" name="">
+          <option disabled selected value="">Select an option</option>
+
+          <option value="project">Project</option>
+
+            <option value="community">Community</option>
+            <option value="openSource">Open Source</option>
+            <option value="challenges">Challenges</option>
+
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <h3>What would you like to see improved? (check all that apply)</h3>
+
+    <label>  <input type="checkbox" class="check" value="Front-end"> Front End Projects</label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="Back-end"> Back End Projects</label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="Challenges"> Challenges </label>
+    <br>
+    <label>  <input type="checkbox"class="check" value="Open-Source-Community"> Open Source Community </label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="Gitter-Help-rooms"> Gitter Help Rooms</label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="videos"> Videos </label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="City-meetups"> City Meetups </label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="Wiki"> Wikis</label>
+    <br>
+    <label>  <input type="checkbox" class="check" value="Forums">Forums </label>
+    <br>
+    <label>  <input type="checkbox"class="check" value="Additional-courses">Additional Courses  </label>
+    <br>
+
+
+  <br>  <br>  <br>
+  <h3>Any Suggestions?</h3>
+    <br>
+
+  <textarea name="name" rows="8" placeholder="Enter Your Comment here.." cols="67"></textarea>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<div style="text-align:center;">
+
+<button type="submit" id = "submit" >SUBMIT</button>
+
+
+</div>
+<br>
+<br>
+
+</form>
+
+    </div>
+
+
+
+
+<script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
